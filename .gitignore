@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+dist/
+*.keystore
+*.jks
+local.properties
+.env
+data/private/
+.DS_Store
