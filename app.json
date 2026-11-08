@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Smart Maintenance GPS",
+    "slug": "smart-maintenance-gps",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.smartmaintenance.gps",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_LOCATION",
+        "POST_NOTIFICATIONS",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "isAndroidBackgroundLocationEnabled": true,
+          "isIosBackgroundLocationEnabled": false,
+          "locationAlwaysAndWhenInUsePermission": "Cho phép Smart Maintenance ghi GPS khi ứng dụng ở nền."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#2563eb"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b787bf17-d1f0-473a-b1d1-0b9c354ec3aa"
+      }
+    },
+    "owner": "bobietbay"
+  }
+}
