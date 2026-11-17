@@ -34,7 +34,8 @@
         {
           "color": "#2563eb"
         }
-      ]
+      ],
+      "expo-asset"
     ],
     "extra": {
       "eas": {
